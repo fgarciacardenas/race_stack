@@ -26,8 +26,9 @@
         "XAUTHORITY" : "/tmp/.Xauthority",
         "ROS_HOSTNAME" : "${localEnv:ROS_HOSTNAME}",
         "NVIDIA_VISIBLE_DEVICES": "all",
-        "NVIDIA_DRIVER_CAPABILITIES": "compute,utility,graphics",
-        "QT_X11_NO_MITSHM": "1"
+        "NVIDIA_DRIVER_CAPABILITIES": "all",
+        "QT_X11_NO_MITSHM": "1",
+        "__GLX_VENDOR_LIBRARY_NAME": "nvidia"
     },
     "runArgs": [
         "--name", "forzaeth_devcontainer",
